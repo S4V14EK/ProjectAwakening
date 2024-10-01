@@ -1,0 +1,71 @@
+
+  /* ХЕАДЕР */   /* ХЕАДЕР */  /* ХЕАДЕР */  /* ХЕАДЕР */  /* ХЕАДЕР */  /* ХЕАДЕР */
+
+  header {
+    width: 100vw;
+    background-color: #fffb00;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    position: fixed;
+    top: 0;
+  }
+
+  .shapka>header>.upg>img {
+    max-width: 2rem;
+  }
+
+  .lgo {
+    max-width: 2rem;
+  }
+
+  header>nav>ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+
+  header>nav>ul>img {
+    max-width: 3rem;
+  }
+
+  header>nav>ul>li {
+    color: #000000;
+    font-size: larger;
+  }
+  
+  header>nav>ul>li>a {
+    display: block;
+    padding: 10px;
+    margin: 0px;
+    text-decoration: none;
+    color: #000000;
+  }
+
+  header>.prog>ul {
+    padding-right: 15rem;
+  }
+
+  header>.upg>ul {
+    padding-right: 10rem;
+  }
+
+  header>.but {
+    max-width: 10rem;
+    max-height: 3rem;
+    margin-right: 25rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    transition: 0.5s;
+  }
+  
+  .nomer {
+    margin-right: 25rem;
+    margin-top: 1.8rem;
+    list-style: none;
+  }
+
+  .prog {
+    margin-left: 7rem;
+  }
